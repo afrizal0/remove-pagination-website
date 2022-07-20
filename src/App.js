@@ -7,14 +7,16 @@ import {
 
 import Nav from './components/Navbar';
 import Hero from './components/Hero';
-import SmallCentered from './components/Footer';
+import Footer from './components/Footer';
+import About from './components/About';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Nav />
-      <Hero />
-      <SmallCentered />
+      <Hero margin={24}/>
+      <About />
+      <Footer />
     </ChakraProvider>
   );
 }

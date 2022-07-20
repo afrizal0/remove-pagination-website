@@ -1,11 +1,11 @@
 import { Button, Link, useColorModeValue, Flex, Text } from '@chakra-ui/react';
-import { FaGithub } from 'react-icons/fa';
 
-export default function Btn() {
+export default function Btn({label, href, children}) {
   return (
-    <Link href="https://github.com/afrizal0/remove-pagination" isExternal>
+    <Link href={href} isExternal>
       <Button
-        px={8}
+        px={6}
+        mx={2}
         bg={useColorModeValue('blackAlpha.600', 'white')}
         color={useColorModeValue('white', 'black')}
         rounded="md"
@@ -15,8 +15,8 @@ export default function Btn() {
         }}
       >
         <Flex>
-            <FaGithub /> 
-            <Text px={1}>Github</Text>
+            {children}
+            <Text px={1}>{label}</Text>
         </Flex>
       </Button>
     </Link>
