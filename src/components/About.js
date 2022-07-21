@@ -2,16 +2,19 @@ import {
   Center,
   Heading,
   Image,
-  Text,
   SimpleGrid,
   Box,
-  Code 
+  Code,
+  UnorderedList,
+  ListItem,
+  Text,
+  HStack,
 } from '@chakra-ui/react';
-
+import { BsThreeDotsVertical } from 'react-icons/bs';
 export default function About() {
   return (
-    <SimpleGrid minChildWidth={'360px'} columns={2} gap={20} px={20}>
-      <Box>
+    <SimpleGrid minChildWidth={'360px'} columns={2} gap={20}>
+      <Box px={4}>
         <Center>
           <Image
             w={'95%'}
@@ -21,15 +24,35 @@ export default function About() {
           />
         </Center>
       </Box>
-      <Box>
+      <Box px={4}>
         <Heading as={'h2'}>Cara menggunakan</Heading>
-        <Text>
-          Unduh kode sumber ekstensi  
-        </Text>
-          <Code>git clone https://github.com/afrizal0/remove-pagination.git</Code>
-          <Text>
+        <UnorderedList>
+          <ListItem>
+            Unduh kode sumber ekstensi
+            <Code>
+              git clone https://github.com/afrizal0/remove-pagination.git
+            </Code>
+          </ListItem>
+          <ListItem>
             Pasang ekstensi chrome
-          </Text>
+            <UnorderedList>
+              <ListItem>
+                <HStack>
+                  <Text>Klik ikon</Text>
+                  <BsThreeDotsVertical />
+                </HStack>
+              </ListItem>
+              <ListItem>
+                Buka menu <i>More Tools</i>, lalu klik <i>extension</i>
+              </ListItem>
+              <ListItem>
+                Aktifkan Developer mode, lalu klik Load unpackaged, pilih source
+                code yang tadi sudah diunduh
+              </ListItem>
+              <ListItem>Selamat anda terbebas dari paginasi 🎉🎉</ListItem>
+            </UnorderedList>
+          </ListItem>
+        </UnorderedList>
       </Box>
     </SimpleGrid>
   );

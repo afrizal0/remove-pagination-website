@@ -2,9 +2,9 @@ import { Box, Text, Heading } from '@chakra-ui/react';
 import Btn from './Button';
 import { FaGithub, FaCloudDownloadAlt } from 'react-icons/fa';
 
-function Hero({margin}) {
+function Hero() {
   return (
-    <Box textAlign="center" fontSize="xl" my={margin} height={360}>
+    <Box textAlign="center" fontSize="xl" my={24} height={360}>
       <Heading as={'h1'} size="3xl">
         RemPagi
       </Heading>

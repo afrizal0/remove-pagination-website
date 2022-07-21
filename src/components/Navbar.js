@@ -17,12 +17,11 @@ const Toggle = () => {
           {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
         </Button>
       </Stack>
-    
     </Flex>
   )
 }
 
-function Nav() {
+export default function Nav() {
   return (
     <Box p={6}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
@@ -32,5 +31,3 @@ function Nav() {
       </Box>
   );
 }
-
-export default Nav;
