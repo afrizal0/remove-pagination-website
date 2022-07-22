@@ -13,19 +13,19 @@ import {
 import { BsThreeDotsVertical } from 'react-icons/bs';
 export default function About() {
   return (
-    <SimpleGrid minChildWidth={'360px'} columns={2} gap={20}>
+    <SimpleGrid minChildWidth={'360px'} columns={2} gap={20} >
       <Box px={4}>
         <Center>
           <Image
             w={'95%'}
             objectFit="fit"
-            src="https://raw.githubusercontent.com/afrizal0/remove-pagination/main/img/gif/screen-capture%20(1).gif"
+            src="https://im5.ezgif.com/tmp/ezgif-5-c42631af7d.webp"
             alt="Cara Penggunaan"
           />
         </Center>
       </Box>
-      <Box px={4}>
-        <Heading as={'h2'}>Cara menggunakan</Heading>
+      <Box px={4} >
+        <Heading as={'h2'} py={6}>Cara menggunakan</Heading>
         <UnorderedList>
           <ListItem>
             Unduh kode sumber ekstensi

@@ -11,13 +11,20 @@ function Hero() {
       <Text fontSize="2x1" p={6}>
         Sebuah ekstensi chrome untuk menghapus paginasi website berita
       </Text>
-      <Btn label={'Github'} href={'https://github.com/afrizal0/remove-pagination'} >
+      <Btn
+        label={'Github'}
+        href={'https://github.com/afrizal0/remove-pagination'}
+      >
         <FaGithub />
       </Btn>
-      <Btn label={'Unduh'} href={'https://github.com/afrizal0/remove-pagination-website/archive/refs/heads/main.zip'} >
+      <Btn
+        label={'Unduh'}
+        href={
+          'https://github.com/afrizal0/remove-pagination-website/archive/refs/heads/main.zip'
+        }
+      >
         <FaCloudDownloadAlt />
       </Btn>
-      
     </Box>
   );
 }

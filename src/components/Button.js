@@ -6,7 +6,7 @@ export default function Btn({label, href, children}) {
       <Button
         px={6}
         mx={2}
-        bg={useColorModeValue('blackAlpha.600', 'white')}
+        bg={useColorModeValue('black', 'white')}
         color={useColorModeValue('white', 'black')}
         rounded="md"
         _hover={{

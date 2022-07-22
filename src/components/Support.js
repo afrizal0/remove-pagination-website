@@ -6,34 +6,34 @@ import {
   } from '@chakra-ui/react';
 export default function Support() {
     return (
-        <Box my={32}>
-            <Heading>
+        <Box my={32} px={4}>
+            <Heading pb={10}>
                 Berfungsi Pada
             </Heading>
             <SimpleGrid minChildWidth={'200px'} spacing={10}>
                 <Box height='80px'>
-                    <Image src='http://assets.kompasiana.com/items/album/2017/02/20/kompasiana-logo-58aa3012b8937321178c8163.png' alt='Kompasiana'/>
+                    <Image src='https://i.ibb.co/7yhKs5S/kompasiana.webp' alt='Kompasiana'/>
                 </Box>
                 <Box height='80px'>
-                    <Image src='https://asset.kompas.com/data/2019/bca/images/logokompas.png' alt='Kompas'/>
+                    <Image src='https://i.ibb.co/0X4xZ5f/logokompas.webp' alt='Kompas'/>
                 </Box>
                 <Box height='80px'>
-                    <Image src='https://www.sobatku.co.id/wp-content/uploads/2019/03/tribunnews.png' alt='Tribunnews'/>
+                    <Image src='https://i.ibb.co/BtVM6VD/tribunnews.webp' alt='Tribunnews'/>
                 </Box>
                 <Box height='80px'>
-                    <Image src='https://public.viva.co.id/asset-viva/responsive-web/img/logo-rebranding-black.png?v=1.1.33' alt='Viva'/>
+                    <Image src='https://i.ibb.co/2qn3fnf/logo-rebranding-black.webp' alt='Viva'/>
                 </Box>
                 <Box height='80px'>
-                    <Image src='https://klikkaltim.com/images/suara.png' alt='Suara'/>
+                    <Image src='https://i.ibb.co/N1mDdCg/suara.webp' alt='Suara'/>
                 </Box>
                 <Box height='80px'>
-                    <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Jawa_Pos_Group_logo.svg/2560px-Jawa_Pos_Group_logo.svg.png' alt='Suara'/>
+                    <Image src='https://i.ibb.co/CVp821W/Jawa-Pos-Group-logo-svg.webp' alt='Suara'/>
                 </Box>
                 <Box height='80px'>
-                    <Image src='https://assets.pikiran-rakyat.com/www/2019/mobile/images/logo_pikiran_rakyat.png?v=59' alt='Suara'/>
+                    <Image src='https://i.ibb.co/J20kNgP/logo-pikiran-rakyat.webp' alt='Suara'/>
                 </Box>
                 <Box height='80px'>
-                    <Image src='https://upload.wikimedia.org/wikipedia/commons/9/9d/Logo-sindonews.png?v=59' alt='Suara'/>
+                    <Image src='https://i.ibb.co/g7jHF4r/Logo-sindonews.webp' alt='Suara'/>
                 </Box>
             </SimpleGrid>
         </Box>
