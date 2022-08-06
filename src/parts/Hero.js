@@ -9,7 +9,7 @@ function Hero() {
         RemPagi
       </Heading>
       <Text fontSize="2x1" p={6}>
-        Sebuah ekstensi chrome untuk menghapus paginasi website berita
+        Sebuah ekstensi chrome untuk menghapus paginasi pada website berita
       </Text>
       <Btn
         label={'Github'}

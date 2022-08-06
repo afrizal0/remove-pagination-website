@@ -25,7 +25,9 @@ export default function About() {
         </Center>
       </Box>
       <Box px={4} >
-        <Heading as={'h2'} py={6}>Cara menggunakan</Heading>
+        <Heading as={'h2'} py={6}>
+          Cara menggunakan
+          </Heading>
         <UnorderedList>
           <ListItem>
             Unduh kode sumber ekstensi

@@ -2,13 +2,16 @@ import {
     Heading,
     SimpleGrid,
     Box,
-    Image
+    Image,
+    Center
   } from '@chakra-ui/react';
 export default function Support() {
     return (
         <Box my={32} px={4}>
             <Heading pb={10}>
-                Berfungsi Pada
+                <Center>
+                    Berfungsi Pada
+                </Center>
             </Heading>
             <SimpleGrid minChildWidth={'200px'} spacing={10}>
                 <Box height='80px'>
